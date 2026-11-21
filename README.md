@@ -8,14 +8,24 @@ built for **Bergen** with the steps in [OTHER-CITIES.md](OTHER-CITIES.md):
   Ulriken (643 m) in the east, so the mountains and the fjord read in the section.
 - The real street network, water, Byfjorden/Puddefjorden, green areas and ten place names from
   OpenStreetMap (`data/game-map.json`); 88 of 90 delivery homes match a real building footprint
-  (`data/buildings.json`).
+  (15 912 OSM footprints in `data/buildings.json`).
+- Cartoon buildings (`src/buildings3d.js`): pitched gable roofs on small houses, one shared
+  facade texture with recessed windows, and muted wall/roof colours taken from OSM tags. All
+  context buildings stay one merged mesh; order homes keep their own highlight materials.
+- Forest on both maps (`src/forest.js`): the 2D map paints the woodland green under the roads,
+  and the 3D view plants 22 000 spruce and birch trees there. The tree density is thinned evenly
+  over the whole map (`FOREST_STEP` 14) instead of stopping at the cap in the north.
 - Sea, lakes and rivers; no trees on or next to water; the river streaks run downstream.
 - Bridges: roads cross water on raised decks with railings and piers; trucks drive over them.
 - Shop window (bottom right): the v1 grocerybot.no store animation (Erik's `arena.js`, ported
   to `src/shop-iso.js`) showing the robots and trucks inside a shop as the match plays, switched
-  by clicking any shop; order card (left) when you click an order house.
+  by clicking any shop or any row in the standings; order card (left) when you click an order
+  house. The floor has the v1 store's four signed departments - Dairy fridges, Pantry shelves,
+  Produce bins and the Bakery rack - with fixtures from `shop.json`, and the trucks in the bays
+  wear the players' own `looks.js` truck roofs, cabs and carriage colours.
 - The replay is a simulated match with the user's rush-ai, recorded from the engine on the
-  Bergen map (`tools/simulate_match.py ... 7 bergen`).
+  Bergen map (`tools/simulate_match.py ... 7 bergen`): 601 frames, 5 seats, Rush AI 2 768
+  points and 46 deliveries, with the department shop layout.
 
 Bergen data built with the town pipeline in
 `grocery-bot-town-bergen/prototypes/town-rush` (`NEW_TOWN_GUIDE.md`):
