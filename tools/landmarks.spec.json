@@ -1,0 +1,1708 @@
+{
+ "town": "Bergen",
+ "notes": "Bergen's trademarks: Bryggen, the UNESCO row of gabled wooden Hanseatic wharf houses along Vågen; Bergenhus fortress with Håkonshallen (c. 1261, the largest medieval secular building in Norway, stepped gables) and the Rosenkrantz Tower; Fløibanen, the funicular up to Fløyen (848 m, 302 m climb, the blue and the red car); Johanneskirken, the red-brick neo-Gothic church (1894) with the tallest tower in Bergen (61 m).",
+ "sites": [
+  {
+   "id": "bryggen-w292242381",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292242381",
+   "at": [
+    5.324477,
+    60.397687
+   ],
+   "place": false,
+   "wall": "#9e3326",
+   "roof": "#3f3b3a",
+   "eave": 6.0,
+   "ridge": 11.9,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292242383",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292242383",
+   "at": [
+    5.324958,
+    60.397606
+   ],
+   "place": false,
+   "wall": "#a33a2a",
+   "roof": "#7a4434",
+   "eave": 3.3,
+   "ridge": 9.6,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292242388",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292242388",
+   "at": [
+    5.324682,
+    60.397688
+   ],
+   "place": false,
+   "wall": "#9e3326",
+   "roof": "#3f3b3a",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320260",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320260",
+   "at": [
+    5.322674,
+    60.397498
+   ],
+   "place": false,
+   "wall": "#eeeae0",
+   "roof": "#84432f",
+   "eave": 8.7,
+   "ridge": 14.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w292320261",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320261",
+   "at": [
+    5.322779,
+    60.397456
+   ],
+   "place": false,
+   "wall": "#eeeae0",
+   "roof": "#84432f",
+   "eave": 8.7,
+   "ridge": 14.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w292320263",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320263",
+   "at": [
+    5.324605,
+    60.397326
+   ],
+   "place": false,
+   "wall": "#8a4f33",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 11.7,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320264",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320264",
+   "at": [
+    5.324413,
+    60.397278
+   ],
+   "place": false,
+   "wall": "#a33a2a",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 11.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320265",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320265",
+   "at": [
+    5.323966,
+    60.39719
+   ],
+   "place": false,
+   "wall": "#c4913f",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320266",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320266",
+   "at": [
+    5.323853,
+    60.397054
+   ],
+   "place": false,
+   "wall": "#9e3326",
+   "roof": "#7a4434",
+   "eave": 8.7,
+   "ridge": 14.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w292320267",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320267",
+   "at": [
+    5.3245,
+    60.397386
+   ],
+   "place": false,
+   "wall": "#b0492f",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 11.3,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320268",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320268",
+   "at": [
+    5.32411,
+    60.396945
+   ],
+   "place": false,
+   "wall": "#9e3326",
+   "roof": "#3f3b3a",
+   "eave": 8.7,
+   "ridge": 13.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w292320269",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320269",
+   "at": [
+    5.32484,
+    60.397427
+   ],
+   "place": false,
+   "wall": "#c98a3a",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 11.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320271",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320271",
+   "at": [
+    5.324122,
+    60.397293
+   ],
+   "place": false,
+   "wall": "#c4913f",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320272",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320272",
+   "at": [
+    5.324203,
+    60.397196
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320273",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320273",
+   "at": [
+    5.324266,
+    60.397384
+   ],
+   "place": false,
+   "wall": "#b0492f",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 11.4,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320274",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320274",
+   "at": [
+    5.324472,
+    60.397483
+   ],
+   "place": false,
+   "wall": "#c98a3a",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 11.0,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320275",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320275",
+   "at": [
+    5.323801,
+    60.397102
+   ],
+   "place": false,
+   "wall": "#9e3326",
+   "roof": "#8c4532",
+   "eave": 8.7,
+   "ridge": 13.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w292320276",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320276",
+   "at": [
+    5.324307,
+    60.397515
+   ],
+   "place": false,
+   "wall": "#9e3326",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 11.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w292320278",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w292320278",
+   "at": [
+    5.324564,
+    60.397217
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 11.6,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274526",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274526",
+   "at": [
+    5.323875,
+    60.397301
+   ],
+   "place": false,
+   "wall": "#b0492f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 11.8,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274536",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274536",
+   "at": [
+    5.323502,
+    60.397416
+   ],
+   "place": false,
+   "wall": "#8a4f33",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274539",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274539",
+   "at": [
+    5.323673,
+    60.397517
+   ],
+   "place": false,
+   "wall": "#a33a2a",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274540",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274540",
+   "at": [
+    5.324857,
+    60.397661
+   ],
+   "place": false,
+   "wall": "#c4913f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.6,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274541",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274541",
+   "at": [
+    5.323285,
+    60.397236
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#84432f",
+   "eave": 8.7,
+   "ridge": 12.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w331274543",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274543",
+   "at": [
+    5.324765,
+    60.397245
+   ],
+   "place": false,
+   "wall": "#b0492f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274546",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274546",
+   "at": [
+    5.32362,
+    60.397605
+   ],
+   "place": false,
+   "wall": "#8a4f33",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274548",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274548",
+   "at": [
+    5.324261,
+    60.397006
+   ],
+   "place": false,
+   "wall": "#a33a2a",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 11.0,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274551",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274551",
+   "at": [
+    5.325137,
+    60.397343
+   ],
+   "place": false,
+   "wall": "#c4913f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.9,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274556",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274556",
+   "at": [
+    5.323774,
+    60.397614
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274560",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274560",
+   "at": [
+    5.322461,
+    60.39759
+   ],
+   "place": false,
+   "wall": "#9e3326",
+   "roof": "#84432f",
+   "eave": 8.7,
+   "ridge": 13.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w331274562",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274562",
+   "at": [
+    5.32304,
+    60.397427
+   ],
+   "place": false,
+   "wall": "#8a4f33",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.9,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274567",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274567",
+   "at": [
+    5.322592,
+    60.397555
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#84432f",
+   "eave": 8.7,
+   "ridge": 16.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w331274569",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274569",
+   "at": [
+    5.323457,
+    60.397497
+   ],
+   "place": false,
+   "wall": "#c4913f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274570",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274570",
+   "at": [
+    5.323748,
+    60.397317
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.5,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274572",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274572",
+   "at": [
+    5.323667,
+    60.397249
+   ],
+   "place": false,
+   "wall": "#b0492f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.3,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274573",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274573",
+   "at": [
+    5.323611,
+    60.397325
+   ],
+   "place": false,
+   "wall": "#8a4f33",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 11.3,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274574",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274574",
+   "at": [
+    5.323146,
+    60.39731
+   ],
+   "place": true,
+   "wall": "#d6a54c",
+   "roof": "#84432f",
+   "eave": 8.7,
+   "ridge": 13.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w331274575",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274575",
+   "at": [
+    5.323287,
+    60.39731
+   ],
+   "place": false,
+   "wall": "#c4913f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274577",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274577",
+   "at": [
+    5.323845,
+    60.397347
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274578",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274578",
+   "at": [
+    5.322352,
+    60.397639
+   ],
+   "place": false,
+   "wall": "#d6a54c",
+   "roof": "#84432f",
+   "eave": 8.7,
+   "ridge": 16.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w331274580",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274580",
+   "at": [
+    5.324134,
+    60.397532
+   ],
+   "place": false,
+   "wall": "#8a4f33",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274581",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274581",
+   "at": [
+    5.32389,
+    60.397398
+   ],
+   "place": false,
+   "wall": "#a33a2a",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 9.3,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274582",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274582",
+   "at": [
+    5.323475,
+    60.39724
+   ],
+   "place": false,
+   "wall": "#d6a54c",
+   "roof": "#84432f",
+   "eave": 8.7,
+   "ridge": 14.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w331274583",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274583",
+   "at": [
+    5.323248,
+    60.397376
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274587",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274587",
+   "at": [
+    5.324158,
+    60.397036
+   ],
+   "place": false,
+   "wall": "#9e3326",
+   "roof": "#7a4434",
+   "eave": 8.7,
+   "ridge": 13.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w331274591",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274591",
+   "at": [
+    5.322975,
+    60.397632
+   ],
+   "place": false,
+   "wall": "#8a4f33",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.4,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274594",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274594",
+   "at": [
+    5.323754,
+    60.397386
+   ],
+   "place": false,
+   "wall": "#a33a2a",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 11.1,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274596",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274596",
+   "at": [
+    5.324145,
+    60.397624
+   ],
+   "place": false,
+   "wall": "#c4913f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 10.4,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274599",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274599",
+   "at": [
+    5.323933,
+    60.397501
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 11.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w331274605",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w331274605",
+   "at": [
+    5.324087,
+    60.397437
+   ],
+   "place": false,
+   "wall": "#b0492f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w416421844",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w416421844",
+   "at": [
+    5.324339,
+    60.397429
+   ],
+   "place": false,
+   "wall": "#8a4f33",
+   "roof": "#7a4434",
+   "eave": 6.0,
+   "ridge": 10.8,
+   "front": false
+  },
+  {
+   "id": "bryggen-w488690087",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w488690087",
+   "at": [
+    5.32363,
+    60.397133
+   ],
+   "place": false,
+   "wall": "#eeeae0",
+   "roof": "#8c4532",
+   "eave": 8.7,
+   "ridge": 13.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w488690088",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w488690088",
+   "at": [
+    5.323545,
+    60.397162
+   ],
+   "place": false,
+   "wall": "#eeeae0",
+   "roof": "#8c4532",
+   "eave": 8.7,
+   "ridge": 13.0,
+   "front": true
+  },
+  {
+   "id": "bryggen-w719637440",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w719637440",
+   "at": [
+    5.325075,
+    60.397507
+   ],
+   "place": false,
+   "wall": "#7b4a2d",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 12.2,
+   "front": false
+  },
+  {
+   "id": "bryggen-w984917585",
+   "name": "Bryggen",
+   "model": "wharf",
+   "osm": "w984917585",
+   "at": [
+    5.324458,
+    60.397162
+   ],
+   "place": false,
+   "wall": "#b0492f",
+   "roof": "#84432f",
+   "eave": 6.0,
+   "ridge": 11.5,
+   "front": false
+  },
+  {
+   "id": "hakonshallen",
+   "name": "Håkonshallen",
+   "model": "stonehall",
+   "osm": "w26249100",
+   "at": [
+    5.31744,
+    60.39967
+   ],
+   "wall": "#cfc8b8",
+   "roof": "#4b4b4b",
+   "height": 25,
+   "roofH": 9
+  },
+  {
+   "id": "rosenkrantz",
+   "name": "Rosenkrantztårnet",
+   "model": "osmparts",
+   "osm": "w487618640",
+   "at": [
+    5.31833,
+    60.39903
+   ],
+   "parts": [
+    {
+     "rings": [
+      [
+       531812,
+       6039900,
+       531816,
+       6039903,
+       531824,
+       6039908,
+       531826,
+       6039908,
+       531839,
+       6039913,
+       531842,
+       6039912,
+       531845,
+       6039911,
+       531854,
+       6039908,
+       531832,
+       6039893,
+       531812,
+       6039900
+      ]
+     ],
+     "min": 0.0,
+     "max": 22.0,
+     "roofH": 0.0,
+     "shape": "flat",
+     "across": false,
+     "wall": "#d9d3c4",
+     "facade": "castle",
+     "roof": "#6b6e70"
+    },
+    {
+     "rings": [
+      [
+       531832,
+       6039893,
+       531815,
+       6039899,
+       531826,
+       6039907,
+       531839,
+       6039911,
+       531851,
+       6039907,
+       531832,
+       6039893
+      ]
+     ],
+     "min": 22.0,
+     "max": 28.0,
+     "roofH": 6.0,
+     "shape": "gabled",
+     "across": false,
+     "wall": "#d9d3c4",
+     "facade": "castle",
+     "roof": "#6b6e70"
+    },
+    {
+     "rings": [
+      [
+       531839,
+       6039900,
+       531841,
+       6039900,
+       531842,
+       6039899,
+       531842,
+       6039898,
+       531840,
+       6039898,
+       531838,
+       6039898,
+       531837,
+       6039899,
+       531837,
+       6039900,
+       531839,
+       6039900
+      ]
+     ],
+     "min": 22.0,
+     "max": 26.0,
+     "roofH": 3.0,
+     "shape": "onion",
+     "across": false,
+     "wall": "#d9d3c4",
+     "facade": "castle",
+     "roof": "#6f9f86",
+     "spire": 10
+    }
+   ]
+  },
+  {
+   "id": "johanneskirken",
+   "name": "Johanneskirken",
+   "model": "osmparts",
+   "osm": "w502748173",
+   "at": [
+    5.31935,
+    60.38856
+   ],
+   "parts": [
+    {
+     "rings": [
+      [
+       531936,
+       6038844,
+       531934,
+       6038848,
+       531927,
+       6038850,
+       531918,
+       6038849,
+       531914,
+       6038845,
+       531916,
+       6038841,
+       531924,
+       6038839,
+       531932,
+       6038840,
+       531936,
+       6038844
+      ]
+     ],
+     "min": 0.0,
+     "max": 22.0,
+     "roofH": 9.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#8f9497",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531960,
+       6038869,
+       531954,
+       6038871,
+       531949,
+       6038872,
+       531952,
+       6038874,
+       531955,
+       6038877,
+       531960,
+       6038876,
+       531965,
+       6038874,
+       531963,
+       6038872,
+       531960,
+       6038869
+      ]
+     ],
+     "min": 0.0,
+     "max": 38.0,
+     "roofH": 6.0,
+     "shape": "gabled",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531961,
+       6038875,
+       531962,
+       6038873,
+       531960,
+       6038871,
+       531957,
+       6038871,
+       531953,
+       6038872,
+       531952,
+       6038873,
+       531954,
+       6038875,
+       531957,
+       6038875,
+       531961,
+       6038875
+      ]
+     ],
+     "min": 32.0,
+     "max": 61,
+     "roofH": 21,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#6f9f86",
+     "facade": "alabaster"
+    },
+    {
+     "rings": [
+      [
+       531942,
+       6038842,
+       531944,
+       6038841,
+       531946,
+       6038841,
+       531947,
+       6038842,
+       531946,
+       6038843,
+       531945,
+       6038843,
+       531943,
+       6038843,
+       531942,
+       6038842,
+       531942,
+       6038842
+      ]
+     ],
+     "min": 4.5,
+     "max": 15.0,
+     "roofH": 5.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531909,
+       6038851,
+       531910,
+       6038851,
+       531912,
+       6038851,
+       531913,
+       6038852,
+       531912,
+       6038852,
+       531911,
+       6038853,
+       531909,
+       6038853,
+       531908,
+       6038852,
+       531909,
+       6038851
+      ]
+     ],
+     "min": 4.5,
+     "max": 15.0,
+     "roofH": 5.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531960,
+       6038869,
+       531949,
+       6038872,
+       531955,
+       6038877,
+       531965,
+       6038874,
+       531960,
+       6038869
+      ]
+     ],
+     "min": 32.0,
+     "max": 38.0,
+     "roofH": 6.0,
+     "shape": "gabled",
+     "across": true,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531947,
+       6038873,
+       531949,
+       6038873,
+       531950,
+       6038874,
+       531949,
+       6038875,
+       531947,
+       6038876,
+       531945,
+       6038876,
+       531944,
+       6038875,
+       531945,
+       6038873,
+       531947,
+       6038873
+      ]
+     ],
+     "min": 8.0,
+     "max": 24.0,
+     "roofH": 7.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531964,
+       6038868,
+       531966,
+       6038868,
+       531968,
+       6038869,
+       531967,
+       6038870,
+       531965,
+       6038871,
+       531963,
+       6038871,
+       531962,
+       6038870,
+       531962,
+       6038869,
+       531964,
+       6038868
+      ]
+     ],
+     "min": 8.0,
+     "max": 24.0,
+     "roofH": 7.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531916,
+       6038847,
+       531921,
+       6038852,
+       531940,
+       6038847,
+       531934,
+       6038842,
+       531916,
+       6038847
+      ]
+     ],
+     "min": 0.0,
+     "max": 22.0,
+     "roofH": 9.0,
+     "shape": "gabled",
+     "across": true,
+     "roof": "#8f9497",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531951,
+       6038875,
+       531948,
+       6038872,
+       531943,
+       6038874,
+       531946,
+       6038877,
+       531951,
+       6038875
+      ]
+     ],
+     "min": 0.0,
+     "max": 12.0,
+     "roofH": 4.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531969,
+       6038870,
+       531966,
+       6038867,
+       531960,
+       6038869,
+       531964,
+       6038872,
+       531969,
+       6038870
+      ]
+     ],
+     "min": 0.0,
+     "max": 12.0,
+     "roofH": 4.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531920,
+       6038863,
+       531927,
+       6038861,
+       531930,
+       6038856,
+       531926,
+       6038853,
+       531917,
+       6038851,
+       531909,
+       6038854,
+       531907,
+       6038858,
+       531911,
+       6038862,
+       531920,
+       6038863
+      ]
+     ],
+     "min": 0.0,
+     "max": 23.0,
+     "roofH": 10.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#8f9497",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531951,
+       6038854,
+       531958,
+       6038852,
+       531961,
+       6038848,
+       531957,
+       6038844,
+       531948,
+       6038843,
+       531940,
+       6038845,
+       531938,
+       6038849,
+       531942,
+       6038853,
+       531951,
+       6038854
+      ]
+     ],
+     "min": 0.0,
+     "max": 23.0,
+     "roofH": 10.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#8f9497",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531922,
+       6038837,
+       531921,
+       6038836,
+       531912,
+       6038838,
+       531913,
+       6038839,
+       531901,
+       6038843,
+       531900,
+       6038845,
+       531907,
+       6038851,
+       531945,
+       6038840,
+       531938,
+       6038834,
+       531934,
+       6038833,
+       531922,
+       6038837
+      ]
+     ],
+     "min": 0.0,
+     "max": 6.5,
+     "roofH": 2.0,
+     "shape": "hipped",
+     "across": false,
+     "roof": "#5d6164",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531940,
+       6038875,
+       531969,
+       6038867,
+       531945,
+       6038845,
+       531916,
+       6038853,
+       531940,
+       6038875
+      ]
+     ],
+     "min": 0.0,
+     "max": 23.0,
+     "roofH": 10.0,
+     "shape": "gabled",
+     "across": false,
+     "roof": "#8f9497",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531943,
+       6038844,
+       531948,
+       6038843,
+       531945,
+       6038840,
+       531940,
+       6038842,
+       531943,
+       6038844
+      ]
+     ],
+     "min": 0.0,
+     "max": 6.5,
+     "roofH": 2.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531909,
+       6038854,
+       531914,
+       6038852,
+       531912,
+       6038850,
+       531907,
+       6038851,
+       531909,
+       6038854
+      ]
+     ],
+     "min": 0.0,
+     "max": 6.5,
+     "roofH": 2.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531956,
+       6038856,
+       531961,
+       6038854,
+       531958,
+       6038852,
+       531954,
+       6038853,
+       531956,
+       6038856
+      ]
+     ],
+     "min": 0.0,
+     "max": 6.5,
+     "roofH": 2.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531923,
+       6038865,
+       531927,
+       6038864,
+       531925,
+       6038861,
+       531920,
+       6038863,
+       531923,
+       6038865
+      ]
+     ],
+     "min": 0.0,
+     "max": 6.5,
+     "roofH": 2.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#6f9f86",
+     "wall": "#a3402c",
+     "facade": "church"
+    },
+    {
+     "rings": [
+      [
+       531920,
+       6038857,
+       531949,
+       6038849,
+       531940,
+       6038841,
+       531911,
+       6038849,
+       531920,
+       6038857
+      ]
+     ],
+     "min": 0.0,
+     "max": 23.0,
+     "roofH": 10.0,
+     "shape": "pyramidal",
+     "across": false,
+     "roof": "#8f9497",
+     "wall": "#a3402c",
+     "facade": "church"
+    }
+   ]
+  },
+  {
+   "id": "floibanen",
+   "name": "Fløibanen",
+   "model": "funicular",
+   "at": [
+    5.33525,
+    60.39548
+   ],
+   "outline": [
+    [
+     533167,
+     6039623,
+     533254,
+     6039605,
+     533482,
+     6039556,
+     533620,
+     6039544,
+     533743,
+     6039541,
+     533884,
+     6039534,
+     533984,
+     6039521,
+     534019,
+     6039515,
+     534180,
+     6039491,
+     534267,
+     6039483,
+     534263,
+     6039473,
+     534174,
+     6039481,
+     534013,
+     6039505,
+     533978,
+     6039511,
+     533880,
+     6039524,
+     533741,
+     6039531,
+     533618,
+     6039534,
+     533476,
+     6039546,
+     533246,
+     6039595,
+     533159,
+     6039613,
+     533167,
+     6039623
+    ]
+   ],
+   "line": [
+    [
+     5.33163,
+     60.39618
+    ],
+    [
+     5.3325,
+     60.396
+    ],
+    [
+     5.33479,
+     60.39551
+    ],
+    [
+     5.33619,
+     60.39539
+    ],
+    [
+     5.33742,
+     60.39536
+    ],
+    [
+     5.33882,
+     60.39529
+    ],
+    [
+     5.33981,
+     60.39516
+    ],
+    [
+     5.34016,
+     60.3951
+    ],
+    [
+     5.34177,
+     60.39486
+    ],
+    [
+     5.34265,
+     60.39478
+    ]
+   ],
+   "tunnels": [
+    [
+     5.33619,
+     5.33742
+    ]
+   ],
+   "cars": [
+    {
+     "at": 0.36,
+     "side": -1,
+     "colour": "#2f63b8"
+    },
+    {
+     "at": 0.36,
+     "side": 1,
+     "colour": "#c7362f"
+    }
+   ]
+  }
+ ],
+ "places": [
+  {
+   "name": "Fløyen",
+   "lon": 5.34265,
+   "lat": 60.39478
+  },
+  {
+   "name": "Fisketorget",
+   "lon": 5.32371,
+   "lat": 60.39463
+  }
+ ]
+}

@@ -717,6 +717,24 @@ the browser console, `groceryView.world3d.flowAt(x, z)` returns `[dx, dz, speed]
 `groceryView.toWorld(lon * 1e5, lat * 1e5)` turns a map coordinate into `x, z`. +z is south and
 +x is east.
 
+## Landmarks and fast loading (engine kit)
+
+Each town now loads with the Oslo strategy (baked `buildings.bin` + `trees.bin`, worker-built chunk
+meshes) and shows 2-4 of its real trademarks in detail. Method:
+
+1. Find candidates inside `data/game-map.json` bounds: OSM features with a `wikidata` tag
+   (Overpass `nwr[wikidata][!highway][!place](S,W,N,E)`), then check shapes, heights and colours in
+   reliable sources (Wikipedia, local history wikis, the owner's site). Do not invent details.
+2. Write `tools/landmarks.spec.json`: one site per landmark with a `model` and its OSM outline
+   (`osm: "w123"`). A site per building is best when a landmark is a group (Bergen's Bryggen is 55
+   sites), because each site replaces the background footprint under it, so nothing is drawn twice.
+3. Models in `src/landmarks.js`: generic `church`, `outline`, `rapids`, plus Bergen's `wharf`
+   (gabled wooden house, gable to the water), `stonehall` (hall with crow-stepped gables),
+   `osmparts` (any building from its OSM building:parts and roof tags) and `funicular` (track and
+   cars on a line). Keep it cheap (everything shares one mesh per material) and never put two faces
+   in one plane (inset walls, no floors under stacked parts, details >= 0.25 m off a surface).
+4. `node tools/bake_landmarks.mjs`, then `node tools/bake_buildings.mjs`, then the trees on the GPU box.
+
 ## Sources and credits
 
 - Roads, water, green areas, buildings: © OpenStreetMap contributors, ODbL. Keep the credit line

@@ -47,6 +47,50 @@ Bergen data built with the town pipeline in
 To make this for another town, follow [OTHER-CITIES.md](OTHER-CITIES.md) (data scripts in
 `tools/build_city.py`).
 
+## Landmarks
+
+Bergen's trademarks stand out in the 3D view and are in the "Explore Bergen" menu
+(`tools/landmarks.spec.json` -> `node tools/bake_landmarks.mjs` -> `data/landmarks.json`, models in
+`src/landmarks.js`; spec written by hand from the OSM data, all outlines are the real OSM ones):
+
+- **Bryggen**: the UNESCO row of wooden Hanseatic wharf houses on the east side of Vågen. 55 houses
+  (14 in the front row) on their own OSM outlines, each with weatherboard walls with small windows
+  and a steep gabled roof whose ridge runs inland, so the gables face the harbour. Heights, levels
+  and facade colours (ochre, oxblood red, white, brown) are the OSM tags of each house; untagged
+  houses behind the front row get muted Bryggen colours. Model `wharf`.
+- **Bergenhus festning**: Håkonshallen (c. 1261, 37 x 16.4 m stone hall, 25 m to the ridge, dark
+  roof) between its two crow-stepped gables, as restored after the Scholeus view of c. 1580
+  (model `stonehall`), and the **Rosenkrantz Tower** from its OSM building parts: the 22 m stone
+  body, its gabled roof and the onion turret with its 10 m spire (model `osmparts`).
+- **Fløibanen**: the funicular from the upper tunnel portal to Fløyen on the real OSM line, with a
+  short tunnel above the passing loop, and the two cars, the blue Blåmann and the red Rødhette,
+  meeting on the loop (model `funicular`). The forest is cleared along the track.
+- **Johanneskirken**: the red-brick neo-Gothic church (1894) from its 20 OSM building parts (nave,
+  transepts, turrets, copper roofs) with the 61 m tower, the tallest in Bergen (model `osmparts`).
+
+Cost: 59 sites in 5 draw calls (one per material), about 2 500 triangles. The landmark houses
+replace their 61 background footprints, so nothing is drawn twice.
+
+Sources: Wikipedia (Bryggen, Bergenhus Fortress, Fløibanen), Norwegian Wikipedia (Håkonshallen:
+stepped gables restored after Scholeus; Rosenkrantztårnet: spire over 10 m), lokalhistoriewiki.no
+(Håkonshallen 37 x 16.4 m), kirken.no / visitnorway (Johanneskirken, 61 m tower), OpenStreetMap
+tags (heights, levels, colours, building parts).
+
+## Loading
+
+The 3D view uses the fast-loading engine of the Oslo map (from the Kongsberg preview's kit):
+`data/buildings.bin` (compact, chunked, simplified footprints, baked by `tools/bake_buildings.mjs`)
+is built into meshes by module workers nearest-first; trees are pre-baked (`data/trees.bin`,
+`tools/bake_trees.cjs`); a lower quality tier on phones (`?quality=low|high`). On the test GPU
+the 3D view is on screen in about 3 s at 60 fps (before: about 44 s and 21 fps).
+
+Flicker fixes (z-fighting): Bergen's buildings.json has about 9 800 shared walls, 146 duplicate
+footprints and delivery homes that also stand as background buildings. The bake keeps each shared
+wall on one side only (8 252), drops the duplicates and the homes' background copies, doors stand
+off the wall, eaves are offset a few centimetres per building, and the camera's near plane follows
+its height. The landmark models have no coplanar faces (the wharf houses stand 15 cm in from their
+outlines, stacked parts have no floors).
+
 Switch views with the 2D / 3D buttons (or V, or `?view=3d`).
 
 Elevation: Mapzen Terrarium tiles (AWS Open Data). Map data © OpenStreetMap contributors (ODbL).
